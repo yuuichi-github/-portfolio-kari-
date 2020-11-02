@@ -1,3 +1,7 @@
 * {
   box-sizing: border-size;
  }
+
+body {
+  background: black;
+}
