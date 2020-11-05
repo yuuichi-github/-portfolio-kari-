@@ -6,10 +6,10 @@ box-sizing: boder-box;
 
 }
 
-.tagtype-list-contents {
+.tagtype-list {
 	display: none;
 }
 
-.tagtype-list-check:checked ~ .tagtype-list-contents{
+.tagtype-list-check:checked ~ .tagtype-list{
 	display: block;
 }
