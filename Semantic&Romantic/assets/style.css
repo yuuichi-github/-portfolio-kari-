@@ -2,14 +2,23 @@
 box-sizing: boder-box;
 }
 
-.tagtype-list-check {
+.header-nav label{
+  cursor: pointer;
+}
 
+#tagtype-list-check {
+/*   display: none; */
 }
 
 .tagtype-list {
 	display: none;
 }
 
-.tagtype-list-check:checked + .tagtype-list{
+.tagtype-list-contents {
+  display: none;
+}
+
+#tagtype-list-check:checked ~ .tagtype-list{
 	display: block;
+  width: 50pxl;
 }
