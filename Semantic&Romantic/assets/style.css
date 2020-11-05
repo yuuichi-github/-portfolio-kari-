@@ -10,6 +10,6 @@ box-sizing: boder-box;
 	display: none;
 }
 
-.tagtype-list-check:checked ~ .tagtype-list{
+.tagtype-list-check:checked + .tagtype-list{
 	display: block;
 }
