@@ -1,15 +1,14 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>素敵なセマンティック</title>
-	
 	</head>
 	<body>
 	<header>
 		<h1>セマンティックに試していくよ</h1>
 		<p>各要素をセマンティックに実装するためにメモ＆実装していきます。</p>
-		<nav class="S&R-header-nav">
-  			<label class="tagtype-list-check">要素タイプ一覧</label>
+		<nav class="header-nav">
+  		<label for="tagtype-list-check">要素タイプ一覧</label>
+      <input type="radio" id="tagtype-list-check" name="radio">
 			<ul class="tagtype-list">
 				<li><label class="type1">今後</label>
   				<ul class="tagtype-list-contents">
@@ -33,5 +32,9 @@
 			</form>
 		</div>
 	</main>
+      <div>
+        <input type="radio">
+        <input type="radio">
+      </div>
 	</body>
 </html>
