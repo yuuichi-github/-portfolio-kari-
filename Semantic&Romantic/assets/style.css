@@ -1,12 +1,18 @@
 *{
 box-sizing: boder-box;
+  color: #555;
 }
 
 .header-nav label{
+  transition: .3s;
+  display: block;
   cursor: pointer;
 }
 .header-nav label:hover {
-  background: #ddd;
+  transition: .5s;
+/*   transform: scaleX(2); */
+  font-size: 20px;
+  color: #333;
 }
 
 .header-nav input[type="checkbox"] {
@@ -38,4 +44,14 @@ box-sizing: boder-box;
 }
 #type3:checked ~ .type-list{
   display: block;
+}
+
+h2 {
+  transition: .3s;
+  text-align: center;
+}
+h2:hover {
+  transition: .5s;
+  transform: scale(2,2);
+  color: orange;
 }
