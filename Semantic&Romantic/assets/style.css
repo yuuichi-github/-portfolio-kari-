@@ -5,6 +5,13 @@ box-sizing: boder-box;
 .header-nav label{
   cursor: pointer;
 }
+.header-nav label:hover {
+  background: #ddd;
+}
+
+.header-nav input[type="checkbox"] {
+  display: none;
+}
 
 #tagtype-list-check {
 /*   display: none; */
