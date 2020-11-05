@@ -26,3 +26,9 @@ box-sizing: boder-box;
 #type1:checked ~ .type-list{
   display: block;
 }
+#type2:checked ~ .type-list{
+  display: block;
+}
+#type3:checked ~ .type-list{
+  display: block;
+}
