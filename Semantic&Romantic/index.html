@@ -12,15 +12,22 @@
   		<label for="tagtype-list-check">要素タイプ一覧</label>
       <input type="checkbox" id="tagtype-list-check" name="radio">
 			<ul class="tagtype-list">
-				<li><label class="type1">今後</label>
-  				<ul class="tagtype-list-contents">
+				<li><label for="type1">今後</label>
+					<input type="checkbox" name="tag-content" id="type1">
+  				<ul class="type-list">
     				<li>いつに</li>
     				<li>なるか</li>
     				<li>内緒</li>
   				</ul>
   				</li>
-  				<li><label class="type2">増やして<label></li>
-  				<li><label class="type3">いくよ<label></li>
+  				<li>
+					<label for="type2">増やして</label>
+					<input type="checkbox" name="tag-content" id="type2">
+				</li>
+  				<li>
+					<label for="type3">いくよ</label>
+					<input type="checkbox" name="tag-content" id="type3">
+				</li>
 			</ul>
 		</nav>
 	</header>
