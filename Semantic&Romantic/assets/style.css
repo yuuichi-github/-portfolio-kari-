@@ -1,0 +1,15 @@
+*{
+box-sizing: boder-box;
+}
+
+.tagtype-list-check {
+
+}
+
+.tagtype-list-contents {
+	display: none;
+}
+
+.tagtype-list-check:checked ~ .tagtype-list-contents{
+	display: block;
+}
