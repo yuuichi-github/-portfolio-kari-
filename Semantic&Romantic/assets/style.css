@@ -19,6 +19,6 @@ box-sizing: boder-box;
 }
 
 #tagtype-list-check:checked ~ .tagtype-list{
-  display: block;
+	display: block;
   width: 50pxl;
 }
