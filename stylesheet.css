@@ -8,7 +8,10 @@ body{
   background: #eaebef;
 }
 
-div {
+.bg {
+  position: absolute;
+  z-index: -1;
+  displau: fixed;
   width: 100vw;
   height: 100vh;
   border: 1px solid black;
