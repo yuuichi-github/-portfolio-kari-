@@ -5,21 +5,22 @@
 }
 
 body{
-  background: #eaebef;
+  background: rgba(210,220,230,.9);
 }
 
 .bg {
   position: absolute;
-  z-index: -1;
-  displau: fixed;
+  top: 0;
+  z-index: 1;
   width: 100vw;
   height: 100vh;
-  border: 1px solid black;
-  background: radial-gradient( white 10px, white 80%, rgba(200,200,200,0.2) 95%);
+  background: radial-gradient( at 50% 70%, rgba(255,255,255,1.3), rgba(255,255,255,.2) 70% 60%, rgba(140,150,160,.2) 90%);
 }
 
 h1 {
-  color: rgba(245,245,255,.8);
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2),
-    -2px -2px 1px rgba(255,255,255,.2);
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  color: rgba(210,220,230, 1.9);
+  text-shadow: 1px 2px 2px rgba(50,50,50,0.6),
+    -1px -1px 2px rgba(255,255,255,.5);
 }
